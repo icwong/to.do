@@ -8,6 +8,11 @@ Download Zip File
 
 Open terminal and head to this file directory
 
-// bundle exec rake db:migrate
+Type in the following:
 
-// rails server
+bundle exec rake db:migrate
+rails server
+
+OR
+
+Heroku web application link: http://agile-mountain-25441.herokuapp.com

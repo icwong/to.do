@@ -4,12 +4,12 @@
 
 		<div class="complete">
 			<%= link_to complete_todo_list_todo_item_path(@todo_list, todo_item.id), method: :patch do %>
-				<i style="opacity: 0.4;" class="fa fa-check"></i>
+				<i style="opacity: 1.0;" class="fa fa-check"></i>
 			<% end %>
 		</div>
 
 		<div class="todo_item">
-			<p style="opacity: 0.4;"><strike><%= todo_item.content %></strike></p>
+			<p style="opacity: 1.0;"><strike><%= todo_item.content %></strike></p>
 		</div>
 
 		<div class="trash">

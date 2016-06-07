@@ -13,7 +13,7 @@ body {
   background-image: url('/assets/table.jpg');
   background-size: cover;
   font-family: 'Lato', sans-serif;
-  opacity: 100%;
+  opacity: 95%;
 }
 
 #TodoHeader {
@@ -70,7 +70,7 @@ body {
 		color: white;
 		transition: all .4s ease-in-out;
 		&:hover {
-			opacity: 1.0;
+			opacity: 0.3;
 		}
 	}
 }
